@@ -1,0 +1,35 @@
+.targetquestion {
+    padding: 0 2rem;
+    height: 100vh;
+}
+
+.item {
+    background-color: #EB8071;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 2rem;
+    border-radius: 32px;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 64px;
+}
+
+
+ @media only screen and (max-width: 900px) {
+    .title {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .item {
+        padding: 2rem;
+    }
+  }

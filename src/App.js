@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import TeamBlock from './components/TeamBlock';
-import TargetQuestionSection from './components/TargetQuestionSection';
+import TargetQuestionSection from './components/TargetQuestion/TargetQuestionSection';
 
 function App() {
   return (
