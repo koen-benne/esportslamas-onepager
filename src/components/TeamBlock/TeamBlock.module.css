@@ -2,15 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 75vh;
 }
 
 .Block {
   background-color: #F0BEB7;
-  height: 469px;
-  width: 816px;
+
+  display: block;
+  max-width: 800px;
+  height: 55vh;
+  width: 100%;
+  margin: 20px;
+
   border-radius: 20px;
 }
 
 .TeamNames {
-  font-size: 30px;
+  font-size: 25px;
+  padding-top: 20px;
 }

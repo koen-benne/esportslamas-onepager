@@ -1,7 +1,24 @@
 .Header {
+  height: 25vh
+}
+
+.Title {
   font-family: 'Italiana';
   font-size: 80px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  margin: 0;
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .Title {
+    display: none;
+  }
+}
+
+.Image {
+  left: 0;
+  top: 0;
+  width: 300px;
+  position: absolute;
 }
 
