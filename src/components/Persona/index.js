@@ -3,7 +3,7 @@ import styles from './Persona.module.css';
 function Persona() {
   return (
     <div class={styles.Persona}>
-      Martijn
+      Martijn, 12
     </div>
   );
 }
