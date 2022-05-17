@@ -1,5 +1,6 @@
 .Insights{
-    height:100vh;
+    overflow: auto;
+    min-height:100vh;
 }
 .Insights_title {
     font-family: Italiana;
