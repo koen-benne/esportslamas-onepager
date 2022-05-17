@@ -6,8 +6,13 @@
 
 .Block {
   background-color: #F0BEB7;
-  height: 469px;
-  width: 816px;
+
+  display: block;
+  max-width: 816px;
+  height: 60vh;
+  width: 100%;
+  margin: 20px;
+
   border-radius: 20px;
 }
 
