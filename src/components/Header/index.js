@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 function Header() {
   return (
     <div class={styles.Header}>
-      Placeholder
+      Esports Lama's
     </div>
   );
 }
