@@ -1,4 +1,7 @@
 .Header {
-  font-family: Italiana;
+  font-family: 'Italiana';
   font-size: 80px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
+
