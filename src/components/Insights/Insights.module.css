@@ -1,4 +1,49 @@
+.Insights{
+    height:100vh;
+}
 .Insights_title {
     font-family: Italiana;
     font-size: 80px;
-  }
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+}
+
+.Insights_cardsItem{
+    background-color: #F0BEB7;
+    border-radius: 13px;
+}
+
+.Insights_cardtitle{
+    color:white;
+    font-size:32px;
+    font-family: 'Montserrat Alternates';
+}
+
+.Insights_cardDivider{
+    width:64px;
+    height:1px;
+    background-color:white;
+    border:none;
+}
+
+.Insights_cardSubTitle{
+    color:white;
+    font-family: 'Montserrat Alternates';
+}
+
+.Insights_arrow{
+    width:100%;
+}
