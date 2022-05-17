@@ -1,8 +1,19 @@
 .Header {
+  height: 20vh
+}
+
+.Title {
   font-family: 'Italiana';
   font-size: 80px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  height: 10vh
+  margin: 0;
+  padding-top: 40px;
+
+}
+
+.Image {
+  left: 0;
+  top: 0;
+  width: 250px;
+  position: absolute;
 }
 
