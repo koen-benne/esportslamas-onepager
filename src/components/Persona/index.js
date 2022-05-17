@@ -1,14 +1,17 @@
+import Container from '../Container';
 import styles from './Persona.module.css';
 
 function Persona() {
   return (
-    <div class={styles.Persona}>
-      <img class={styles.Video} src={require('./persona-vid.gif')}/>
-      <div class={styles.Aspect}>Ouders</div>
-      <div class={styles.Aspect}>Docenten</div>
-      <div class={styles.Aspect}>Leerlingen</div>
-      <div class={styles.Aspect}>Experts</div>
-      <div class={styles.Name}>Martijn, 12</div>
+    <div class={styles.persona}>
+      <Container>
+      <span class={styles.aspect}>Ouders</span>
+      <div class={styles.aspect}>Docenten</div>
+      <div class={styles.aspect}>Leerlingen</div>
+      <div class={styles.aspect}>Experts</div>
+      <div class={styles.name}>Martijn, 12</div>
+      <img class={styles.video} src={require('./persona-vid.gif')}/>
+      </Container>
     </div>
   );
 }

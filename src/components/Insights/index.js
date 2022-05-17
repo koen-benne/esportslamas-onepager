@@ -1,6 +1,4 @@
-import Container from '../Container';
 import styles from './Insights.module.css';
-import ArrowImage from './arrow.svg';
 
 function Insights() {
   return (

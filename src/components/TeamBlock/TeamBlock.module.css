@@ -8,17 +8,32 @@
 
 .Block {
   background-color: #F0BEB7;
-
-  display: block;
   max-width: 800px;
   height: 55vh;
   width: 100%;
   margin: 20px;
-
+  display: flex;
+  flex-wrap: wrap;
   border-radius: 20px;
+  justify-content: center;
 }
 
 .TeamNames {
   font-size: 25px;
   padding-top: 20px;
+}
+
+
+.image {
+  flex: 0 0 auto;
+  width: 18.2857%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 25%;
+  }
 }

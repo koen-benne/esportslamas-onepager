@@ -1,26 +1,47 @@
-.Persona {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+.persona {
+  /* display: flex;
+  flex-direction: column; */
+  position: relative;
   align-items: center;
   justify-content: space-between;
   overflow: auto;
 }
 
-.Video {
-  width: 80vw;
-  padding-top: 100px;
+.video {
+  width: 80%;
+  padding-bottom: 100px;
 }
 
-.Aspect {
+.aspect {
   background-color: #EB8071;
   color: white;
   border-radius: 8px;
   padding: 10px 25px;
   font-size: 30px;
+  position: absolute;
 }
 
-.Name {
+.aspect:first-child {
+  left: 10%;
+  top: 10%;
+}
+
+.aspect:nth-child(2) {
+  right: 10%;
+  top: 20%;
+}
+
+.aspect:nth-child(3) {
+  left: 15%;
+  top: 50%;
+}
+
+.aspect:nth-child(4) {
+  right: 15%;
+  top: 60%;
+}
+
+.name {
   font-size: 40px;
   padding-bottom: 100px;
 }
