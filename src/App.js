@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Header/>
       <TeamBlock/>
-      <Insights/>
       <Persona/>
+      <Insights/>
       <TargetQuestionSection/>
     </div>
   );
