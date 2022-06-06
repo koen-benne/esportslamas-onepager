@@ -1,60 +1,64 @@
 .Insights{
     overflow: auto;
-    min-height:100vh;
+    background-color: #fcf6f1;
+    padding: 8rem 0;
 }
 .Insights_title {
-    font-family: Italiana;
-    padding-bottom: 40px;
-    font-size: 80px;
+    font-size: 3.2rem;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-family: "main";
+    text-align: left;
+    width: 50%;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+}  
+
+.para {
+    text-align: left;
+    width: 50%;
+    margin: 0;
 }
 
 .Container {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-around;
-}
-
-.Row{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 8rem;
 }
 
 .Column {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-basis: 100%;
-    /* padding: 0 100px; */
-    max-width: 400px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 2.5rem;
 }
 
-.Arrow {
-    padding: 100px 0 50px 0;
-}
 
 .Insights_cardsItem{
-    background-color: #F0BEB7;
-    border-radius: 13px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .Insights_cardtitle{
-    margin: 20px 20px;
-    color: white;
-    font-size: 32px;
-    font-family: 'Montserrat Alternates';
-}
-
-.Insights_cardDivider{
-    width:64px;
-    height:1px;
-    background-color:white;
-    border:none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: -0em;
+    margin: 0;
+    font-family: 'text';
 }
 
 .Insights_cardSubTitle{
-    color:white;
-    font-family: 'Montserrat Alternates';
+    font-size: 1rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: -0em;
+    margin: 0;
+    font-family: 'text';
+    font-weight: 100;
 }
 
 .Insights_arrow{

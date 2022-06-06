@@ -5,15 +5,16 @@
   align-items: center;
   justify-content: space-between;
   overflow: auto;
+  background: #f39369;
+  padding: 8rem 0 0;
 }
 
 .video {
-  width: 80%;
-  padding-bottom: 100px;
+  width: 90%;
 }
 
 .aspect {
-  background-color: #EB8071;
+  background-color: rgb(62, 8, 8);;
   color: white;
   border-radius: 8px;
   padding: 10px 25px;
@@ -23,25 +24,46 @@
 
 .aspect:first-child {
   left: 10%;
-  top: 10%;
+  top: 20%;
 }
 
 .aspect:nth-child(2) {
   right: 10%;
-  top: 20%;
+  top: 60%;
 }
 
 .aspect:nth-child(3) {
   left: 15%;
-  top: 50%;
+  top: 80%;
 }
 
 .aspect:nth-child(4) {
   right: 15%;
-  top: 60%;
+  top: 80%;
 }
 
 .name {
   font-size: 40px;
   padding-bottom: 100px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  padding-bottom: 50px;
+  font-family: 'main';
+  font-size: 4.5rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.desc {
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 3rem;
+  letter-spacing: -0em;
+  font-family: 'text';
+  width: 500px;
+  margin: 0 auto;
 }

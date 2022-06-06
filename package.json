@@ -2,6 +2,7 @@
   "name": "esportslamas-onepager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://project.cmi.hr.nl/2021_2022/mlab2_hoe_t1/",
   "dependencies": {
     "@babel/core": "^7.17.10",
     "@babel/plugin-syntax-flow": "^7.16.7",
@@ -14,6 +15,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "react-tabs": "^5.1.0",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4",
     "webpack": "^5.72.1"

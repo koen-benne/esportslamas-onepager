@@ -1,0 +1,44 @@
+.hero {
+    background-color: #f3d468;
+    text-align: center;
+    font-weight: 600;
+    line-height: calc(48em / 42);
+    letter-spacing: -0.035em;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    color: rgb(62, 8, 8);
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    padding-bottom: 50px;
+    font-family: 'main';
+    font-size: 6.5rem;
+    line-height: 5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: -0em;
+    font-family: 'text';
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.desc {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: -0em;
+    font-family: 'text';
+    padding-top: 30px;
+    display: block;
+}
